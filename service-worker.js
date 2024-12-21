@@ -3,7 +3,7 @@
 
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/5.0.0/workbox-sw.js");
 if (workbox) {
-  workbox.precaching.precacheAndRoute([{'revision':null,'url':'b8b6cf7fd91ca9c89064.jpg'},{'revision':'20c59b76afc9fa8fa727ecbbab18846a','url':'main.css'},{'revision':'27d9a3e32a692b648ad9e0f89965fdb2','url':'main.js'}]);
+  workbox.precaching.precacheAndRoute([{'revision':null,'url':'b8b6cf7fd91ca9c89064.jpg'},{'revision':'82ac9f08dfa75051c193dc3d8aa2909c','url':'main.css'},{'revision':'3643cbfa08b616903801159d3cdc77a4','url':'main.js'}]);
   const CACHE_NAME = "CACHE";
   async function addAllToCache(requests) {
     const cache = await caches.open(CACHE_NAME);
