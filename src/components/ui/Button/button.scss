@@ -1,0 +1,18 @@
+.update-news-btn {
+    color: gray;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    transition: color 1s;
+    cursor: pointer;
+
+    &:hover:not([disabled])  {
+        color: black;
+    }
+
+    &:disabled {
+        opacity: 0.5;
+        cursor: auto;
+    }
+}
